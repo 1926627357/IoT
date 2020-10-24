@@ -1,5 +1,7 @@
 # Human Activity Recognition
 
+[TOC]
+
 ## Abstract
 
 This repo is HAR-CNN code
