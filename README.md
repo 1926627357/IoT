@@ -2,21 +2,11 @@
 
 ## Table of Contents
 
-* 1 [markdown-toc](#markdown-toc)
-  * 1.1 [变更日志](#变更日志)
-  * 1.2 [Features](#features)
-* 2 [环境依赖](#环境依赖)
-  * 2.1 [JDK](#jdk)
-  * 2.2 [Maven](#maven)
-* 3 [快速入门](#快速入门)
-  * 3.1 [maven 引入](#maven-引入)
-  * 3.2 [md 文件](#md-文件)
-  * 3.3 [快速开始](#快速开始)
-* 4 [属性配置](#属性配置)
-  * 4.1 [属性说明](#属性说明)
-  * 4.2 [返回值说明](#返回值说明)
-* 5 [测试案例](#测试案例)
-* 6 [其他](#其他)
+* 1 [Abstract](#Abstract)
+* 2 [Requirement](#Requirement)
+* 3 [Usage](#Usage)
+* 4 [Result](#Result)
+
 
 ## Abstract
 
