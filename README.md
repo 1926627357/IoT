@@ -1,7 +1,7 @@
 # Human Activity Recognition
 
 <!--TOC-->
-- [Abstract](## Abstract)
+- [Abstract](# Abstract)
 <!--TOC-->
 
 ## Abstract
