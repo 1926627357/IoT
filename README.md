@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-* 1 [Abstract](#Abstract)
-* 2 [Requirement](#Requirement)
-* 3 [Usage](#Usage)
-* 4 [Result](#Result)
+*  [Abstract](#Abstract)
+*  [Requirement](#Requirement)
+*  [Usage](#Usage)
+*  [Result](#Result)
 
 
 ## Abstract
