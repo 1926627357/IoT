@@ -11,7 +11,7 @@ class Network(nn.Module):
     def __init__(self):
         super(Network, self).__init__()
         self.conv1 = nn.Sequential(
-            nn.Conv2d(in_channels=9, out_channels=32, kernel_size=(1, 9)),
+            nn.Conv2d(in_channels=3, out_channels=32, kernel_size=(1, 9)),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=(1, 2), stride=2)
         )
@@ -21,7 +21,7 @@ class Network(nn.Module):
             nn.MaxPool2d(kernel_size=(1, 2), stride=2)
         )
         self.fc1 = nn.Sequential(
-            nn.Linear(in_features=64 * 26, out_features=1000),
+            nn.Linear(in_features=64 * 25, out_features=1000),
             nn.ReLU()
         )
         self.fc2 = nn.Sequential(
@@ -29,13 +29,13 @@ class Network(nn.Module):
             nn.ReLU()
         )
         self.fc3 = nn.Sequential(
-            nn.Linear(in_features=500, out_features=6)
+            nn.Linear(in_features=500, out_features=4)
         )
 
     def forward(self, x):
         out = self.conv1(x)
         out = self.conv2(out)
-        out = out.reshape(-1, 64 * 26)
+        out = out.reshape(-1, 64 * 25)
         out = self.fc1(out)
         out = self.fc2(out)
         out = self.fc3(out)
