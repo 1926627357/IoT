@@ -1,8 +1,8 @@
-# IoT
+# Human Activity Recognition
 
 ## Abstract
 
-This repo is for IoT code
+This repo is HAR-CNN code
 
 
 ## Requirement
