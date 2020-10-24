@@ -29,7 +29,7 @@ class Network(nn.Module):
             nn.ReLU()
         )
         self.fc3 = nn.Sequential(
-            nn.Linear(in_features=500, out_features=3)
+            nn.Linear(in_features=500, out_features=4)
         )
 
     def forward(self, x):

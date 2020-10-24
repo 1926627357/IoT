@@ -18,13 +18,14 @@ Pytorch 1.x
 
 Scikit-learn
 
+tqdm
 
 ## Usage
 Fistly, we can set some necessary configurations in `config.py`.
 Configuration Table
 |Config|Value|Description|
 |:-:|:-:|:-:|
-|epoch|20|-|
+|epoch|50|-|
 |lr|0.001|-|
 |momentum|0.9|-|
 |batch_size|64|-|
