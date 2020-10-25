@@ -5,6 +5,7 @@
 *  [Abstract](#Abstract)
 *  [Requirement](#Requirement)
 *  [Usage](#Usage)
+*  [Network](#Network)
 *  [Result](#Result)
 
 
@@ -38,6 +39,14 @@ Then begin to train network by following command:
 [username:/home/workspace/IoT]$ python main_pytorch.py
 ```
 
+## Network
+![img](./figs/IOT.png)
+
+
 ## Result
 Training Accuracy: 91.26%
 Testing Accuracy: 90.26%
+
+
+## Reference
+Reference repo: [https://github.com/jindongwang/Deep-learning-activity-recognition](https://github.com/jindongwang/Deep-learning-activity-recognition`)
