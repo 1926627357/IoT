@@ -1,5 +1,5 @@
 # Human Activity Recognition
-
+*Haiquan Wang, Li Yi, Zhicheng Ye*
 ## Table of Contents
 
 *  [Abstract](#Abstract)
